@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Sass file */
 button {
   color: #FF0000;
@@ -5,4 +6,15 @@ button {
 
 button:hover {
   color: #00FF00;
+=======
+/* Nested Hover */
+$textbuttoncolor: #FF0000;
+$texthovercolor: #00FF00;
+
+button {
+    color: $textbuttoncolor; 
+     &:hover {
+        color: $texthovercolor;
+    }
+>>>>>>> c8e7f2b9624be31a0ca48fcd136cfd10e0a48bb0
 }
