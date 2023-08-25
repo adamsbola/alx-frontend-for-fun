@@ -1,10 +1,12 @@
-/* Nested Hover */
-$textbuttoncolor: #FF0000;
-$texthovercolor: #00FF00;
+/* A Sass file that assigns text color to button tags when the user hovers over button tags */
+
+$first-color: #FF0000;
+$second-color:#00FF00;
 
 button {
-    color: $textbuttoncolor; 
-     &:hover {
-        color: $texthovercolor;
+    color: $first-color;
+
+    &:hover {
+        color: $second-color;
     }
 }
